@@ -1,6 +1,4 @@
-# Read CSV file in MATLAB
-
-Tool to read csv file containing array with n multiple columns.
+# A tool to read a csv file containing n multiple columns and to separate them into their independent variables
 
 Input Arguments:
 input          array with n multiple columns in csv format
