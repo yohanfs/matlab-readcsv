@@ -1,10 +1,12 @@
-# A tool to read a csv file containing n multiple columns and to separate them into their independent variables
+## A tool to read a csv file containing n multiple columns and to separate them into their independent variables
 
-Input Arguments:
-input          array with n multiple columns in csv format
+* Input Arguments:
+
+input:          array with n multiple columns in csv format
    
-Output Arguments:
-varargout      the size depends on how many columns in the csv files
+* Output Arguments:
+
+varargout:      the size depends on how many columns in the csv files
 
 Example:
 1. csv file
@@ -19,8 +21,11 @@ Note: please remove any header/title on the csv file before using this script
 
 2. create a new script to call readcsv
 
-[t, u1, u2]        = readcsv('filename.csv')
+```[t, u1, u2]        = readcsv('filename.csv')```
 
-written by Yohan Fajar Sidik (ysi) on 03.08.2018
+## Change log
 
-updated on 02.10.2018: give an example how to use the script
+1. 03.08.2018: first created by ysi
+2. 02.10.2018: give an example how to use the script
+
+
